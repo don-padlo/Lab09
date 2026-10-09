@@ -7,8 +7,8 @@ for (int number = 8; number >= totalExercises; number--){
 Console.WriteLine("Домашнее задание готово");
 
 Console.WriteLine();
-for (int room = 0; room <= 50; room+=5){
-    Console.WriteLine($"Кабинет {room}");
+for (int room = 0; room <= 50; room++){
+    if (room%5==0 && room!=0) Console.WriteLine($"Кабинет {room}");
 }
 
 Console.WriteLine();
